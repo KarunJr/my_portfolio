@@ -94,4 +94,90 @@ export const myProjects = [
       },
     ],
   },
+  {
+    title: "CineTickets - Your Gateway to the Big Screen",
+    desc: "CineTicket is a high-performance full-stack web application for booking movie tickets online. Featuring real-time seat availability, seamless local payment integration, and instant ticket generation, it brings the cinema experience directly to your screen.",
+    subdesc:
+      "With CineTicket, users can experience ultra-fast, conflict-free seat booking without any double-bookings, by using Next.js and Redis caching features alongside Esewa payments.",
+    href: "https://cinetickets.vercel.app",
+    texture: "/textures/demo/project2.mp4",
+    logo: "/assets/cineticket.png",
+    logoStyle: {
+      backgroundColor: "#13202F",
+      border: "0.2px solid #17293E",
+      boxShadow: "0px 0px 60px 0px #2F6DB54D",
+    },
+    spotlight: "/assets/spotlight2.png",
+    tags: [
+      {
+        id: 1,
+        name: "Next.js",
+        path: "/assets/next.png",
+      },
+      {
+        id: 2,
+        name: "TailwindCSS",
+        path: "/assets/tailwindcss.png",
+      },
+      {
+        id: 3,
+        name: "TypeScript",
+        path: "/assets/typescript.png",
+      },
+      {
+        id: 4,
+        name: "Mongo DB",
+        path: "/assets/mongo.png",
+      },
+      {
+        id: 5,
+        name: "Redis",
+        path: "/assets/redis.png",
+      },
+    ],
+  },
+  {
+    title: "Real-Time Chat Application",
+    desc: "A fast, modern, and scalable real-time messaging platform that enables seamless communication through instant message delivery, group chats, image sharing, and secure user authentication.",
+    subdesc:
+      "Built with Next.js, Socket.io, Neon PostgreSQL, and Tailwind CSS, the application leverages WebSockets for real-time communication, persistent cloud-based data storage, responsive design, and production deployment on Render for a reliable user experience.",
+    href: "https://next-chat-4m44.onrender.com",
+    texture: "/textures/demo/project3.mp4",
+    logo: "/assets/next-chat.png",
+    logoStyle: {
+      backgroundColor: "#60f5a1",
+      background:
+        "linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)",
+      border: "0.2px solid rgba(208, 213, 221, 1)",
+      boxShadow: "0px 0px 60px 0px rgba(35, 131, 96, 0.3)",
+    },
+    spotlight: "/assets/spotlight3.png",
+    tags: [
+      {
+        id: 1,
+        name: "Next.js",
+        path: "/assets/next.png",
+      },
+      {
+        id: 2,
+        name: "TailwindCSS",
+        path: "/assets/tailwindcss.png",
+      },
+      {
+        id: 3,
+        name: "TypeScript",
+        path: "/assets/typescript.png",
+      },
+      {
+        id: 4,
+        name: "PostgresSQL",
+        path: "/assets/psql.png",
+      },
+      {
+        id: 5,
+        name: "Socket.io",
+        path: "/assets/socket.png",
+      },
+    ],
+  },
 ];
